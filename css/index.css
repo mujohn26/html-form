@@ -1,0 +1,80 @@
+body {
+  background-color: #eceef2;
+}
+
+.top-nav-bar {
+  height: 100px;
+  width: 100%;
+}
+
+.table-container {
+  margin-left: 80%;
+}
+
+.td-content {
+  font-size: 12px;
+  color: #505050;
+  font-weight: normal;
+}
+
+.forgot-link a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #0077c5;
+  font-weight: normal;
+}
+
+.signin-button {
+  padding: 10px 30px;
+  background-color: #0077c5;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #505050;
+  line-height: 1.5;
+}
+
+.footer-menu {
+  display: block;
+}
+
+.footer-menu a {
+  color: #505050;
+  padding-left: 15px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.main-logo {
+  margin-left: 43%;
+}
+
+.sub-menu-icon {
+  display: flex;
+  margin-left: 6px;
+  font-weight: normal;
+  line-height: 1.5px;
+}
+
+.sub-menu-icon a {
+  text-decoration: none;
+  color: #a39e9e;
+  font-size: 18px;
+}
+
+.main-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.form-div {
+  text-align: center;
+  height: 500px;
+}
