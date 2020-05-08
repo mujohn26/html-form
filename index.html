@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>signup</title>
     <link rel="stylesheet" href="./css/index.css" />
-
 </head>
-
-
 <body>
     <div class="top-nav-bar">
         <div class="table-container">
@@ -27,42 +23,85 @@
     </div>
     <div class="main-body">
         <div class="main-logo">
-            <img src="./images/icon4.svg" width="218" ; height="55" ; />
+            <div>
+            <img src="./images/icon4.svg" width="218"  height="55" alt="logo icon" />
+        </div>
         </div>
         <div class="main-icon">
             <div class="sub-menu-icon">
-                <div><a href="#"><img src="./images/icon1.svg" width="23" height="23" /></a> </div>
+                <div>
+                        <a href="#"> <img src="./images/icon3.svg" width="23" height="23" alt="mint icon"/></a>
+                    </div>
                 &nbsp;
                 <div> <a href="#">mint</a></div>
             </div>
             <div class="sub-menu-icon">
-                <div><a href="#"> <img src="./images/icon2.svg" width="23" height="23" /></a></div>
+                <div>
+                        <a href="#"><img src="./images/icon1.svg" width="23" height="23" alt="quickbooks icon" /></a>
+                    </div>
                 &nbsp;
                 <div> <a href="#">quickbooks</a></div>
             </div>
             <div class="sub-menu-icon">
-                <div><a href="#"> <img src="./images/icon3.svg" width="23" height="23" /></a></div>
+                <div> <a href="#"> <img src="./images/icon2.svg" width="23" height="23" alt="turbotax icon" /></a>  </div>
                 &nbsp;
                 <div> <a href="#">turbotax</a></div>
             </div>
 
         </div>
-        <div class="form-div">
-
-
-
-
-        </div>
     </div>
+    <div class="mainPage">       
+        <div class="form-title">
+                <h2>Create an Intuit account</h2>
+        </div> 
+        <div class="form-subtitle">
+
+                <p>One account for everything Intuit, including Mint.<br>
+                    <a class="lien" href="#">Learn more</a>
+                </p>
+        </div>
+
+        <div class="form">
+
+            <form>
+                <div class= "champ ">
+                    <label for="mail">Email adress</label><br>
+                    <input type="email" id="mail" name="mail" required>
+                </div>
+                <div class= "champ ">
+                    <label for="phone">Phone (recommended)</label><br>
+                    <input type="tel" id="phone" name="phone" minlength= 6 required> <br>
+                    <span>Standard call, messaging or data rates may apply.</span>
+                    
+                </div>
+                <div class= "champ ">
+                    <label >Password </label><br>
+                    <input type="password" minlength="8">
+                </div>
+                <div >
+                    <input type="submit" value="Create account" class="submit-button">
+                </div>
+            </form>
+        </div>
+        <br>
+   
+        <div class="form-footer">
+                <p>By clicking Create account, you agree to our<br>
+                        <a href="#">Terms</a> and have read and acknowledge our<br>
+                        <a href="#">Privacy Statement.</a> </p>
+        </div>
+<div class="recaptcha-section">
+<p>Invisible reCAPTCHA by Google <a href="#" >Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+</div>
+        </div>
     <footer class="footer">
         <div class="footer-menu">
             <a href="#">Legal</a>
             <a href="#">Privacy</a>
             <a href="#">Security</a>
-
         </div>
         <div>
-            <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            <p>&#169; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
                 registered trademarks of Intuit Inc.</p>
             <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.
             </p>
